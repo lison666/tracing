@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Jaeger.Communication.Grpc" Version="0.4.2" />
+    <PackageReference Include="Jaeger.Core" Version="0.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lwaay.Tracing.Model\Lwaay.Tracing.Model.csproj" />
+  </ItemGroup>
+
+</Project>

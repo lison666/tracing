@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lwaay.Tracing.Model", "Lwaay.Tracing.Model\Lwaay.Tracing.Model.csproj", "{04DF943E-BB4B-4E39-AE11-CD8586F61DD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lwaay.Tracing.Core", "Lwaay.Tracing.Core\Lwaay.Tracing.Core.csproj", "{4487A63E-79B9-4E4A-BE72-EF3C18124EDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lwaay.Tracing.Elasticsearch", "Lwaay.Tracing.Elasticsearch\Lwaay.Tracing.Elasticsearch.csproj", "{2C195395-8BFF-496E-81A5-0226D1D56A08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lwaay.Tracing.Grpc", "Lwaay.Tracing.Collector\Lwaay.Tracing.Grpc.csproj", "{789C13E4-7E80-44B6-A7FB-FE35580F0E36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lwaay.Tracing.ConsoleApp", "Lwaay.Tracing.ConsoleApp\Lwaay.Tracing.ConsoleApp.csproj", "{F991EA33-4B5C-437D-B0F8-17CE7CCAB022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lwaay.Tracing.UI", "Lwaay.Tracing.UI\Lwaay.Tracing.UI.csproj", "{651A666B-2D2D-414B-A5A3-1099E865E8B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lwaay.Tracing.Grpc.Profile", "Lwaay.Tracing.Grpc.Profile\Lwaay.Tracing.Grpc.Profile.csproj", "{5F9AB56B-66BE-4C86-88A4-9849424C548A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04DF943E-BB4B-4E39-AE11-CD8586F61DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DF943E-BB4B-4E39-AE11-CD8586F61DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DF943E-BB4B-4E39-AE11-CD8586F61DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DF943E-BB4B-4E39-AE11-CD8586F61DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4487A63E-79B9-4E4A-BE72-EF3C18124EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4487A63E-79B9-4E4A-BE72-EF3C18124EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4487A63E-79B9-4E4A-BE72-EF3C18124EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4487A63E-79B9-4E4A-BE72-EF3C18124EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C195395-8BFF-496E-81A5-0226D1D56A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C195395-8BFF-496E-81A5-0226D1D56A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C195395-8BFF-496E-81A5-0226D1D56A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C195395-8BFF-496E-81A5-0226D1D56A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{789C13E4-7E80-44B6-A7FB-FE35580F0E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{789C13E4-7E80-44B6-A7FB-FE35580F0E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{789C13E4-7E80-44B6-A7FB-FE35580F0E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{789C13E4-7E80-44B6-A7FB-FE35580F0E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F991EA33-4B5C-437D-B0F8-17CE7CCAB022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F991EA33-4B5C-437D-B0F8-17CE7CCAB022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F991EA33-4B5C-437D-B0F8-17CE7CCAB022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F991EA33-4B5C-437D-B0F8-17CE7CCAB022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651A666B-2D2D-414B-A5A3-1099E865E8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651A666B-2D2D-414B-A5A3-1099E865E8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651A666B-2D2D-414B-A5A3-1099E865E8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651A666B-2D2D-414B-A5A3-1099E865E8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9AB56B-66BE-4C86-88A4-9849424C548A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9AB56B-66BE-4C86-88A4-9849424C548A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9AB56B-66BE-4C86-88A4-9849424C548A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9AB56B-66BE-4C86-88A4-9849424C548A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44DDDE62-8145-46D4-915D-76D81A28A586}
+	EndGlobalSection
+EndGlobal

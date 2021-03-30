@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Elasticsearch.Net" Version="7.10.1" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="3.1.11" />
+    <PackageReference Include="NEST" Version="7.10.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lwaay.Tracing.Core\Lwaay.Tracing.Core.csproj" />
+    <ProjectReference Include="..\Lwaay.Tracing.Model\Lwaay.Tracing.Model.csproj" />
+  </ItemGroup>
+
+</Project>
